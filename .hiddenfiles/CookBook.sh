@@ -3,7 +3,9 @@
 # give an option to use the grep command?
 echo "Hello Delivery Boy (or girl or someone in-between, we don't judge), here's the essentials!"
 echo "Just type in 'A' for using the 'cd' command,
+if(gawk ‘$1 ~ /a' )
       or 'B' for using the 'ls' command, 
+      fi
       or 'C' for using the 'cat' command,
       or 'D' for using the '..' command."
 read -p "Enter A, B, C, or D (use capitals!): " letter
