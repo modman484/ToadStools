@@ -1,11 +1,10 @@
  cat <<EOF
         Please Select:
-        1. Log into Lark game
-        2. readme
-        3. Start Lark game script
+        1. readme
+        2. start game
         0. Quit
 EOF
-read -p "Enter selection [0-3] > " selection
+read -p "Enter selection [0-2] > " selection
      case $selection in
         0)
 break
@@ -13,8 +12,9 @@ break
         1) readme=$(<readme.txt)
 echo $readme
        ;;
-        2) cd .Room #trying to cd into the starting directory but it fails 
-art=$(</.hiddenfiles/roomart)
+        2) cd /home/nfarmer9662/toadstoles/ToadStools/.Room
+ #trying to cd into the starting directory but it fails 
+art=$(</home/nfarmer9662/toadstoles/ToadStools/.hiddenfiles/roomart)
 echo $art
 ;;
        esac
