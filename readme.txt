@@ -6,3 +6,6 @@ And so we find you, the Player, as the delivery boy of a wizard who desires to s
 A most powerful book full of wondrous secrets: The Cookbook of Flavoricus! The end goal is to make the delivery to the Benefactor, 
 but you've only a map and sheer willpower to make the trip. 
 Luckily, you've been provided some means of accessing linux commands to make the experience easier. 
+
+And another thing, make sure that whenever you type in a file/directory (in this context, the names of anything really), 
+be sure to type it is as ". [FILENAME]". A period, then a space, then the actual name. 
