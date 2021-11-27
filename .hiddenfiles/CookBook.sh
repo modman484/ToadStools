@@ -12,8 +12,9 @@ if(gawk ‘$1 ~ /a' )
 read -p "Enter A, B, C, D, or E (use capitals!): " letter
 case "$letter" in
    A)
-     echo "The cd command is short for \"change direcctory\". This allows you to move yourself between
-     directories, or in this case, locations."
+     echo "The cd command is short for \"change directory\". This allows you to move yourself between
+     directories, or in this case, locations. The command would look like \"cd [LOCATION] [hit enter]\"
+     for when you want to move."
      ;;
    B)
      echo "The \"ls\"command simply helps list currently available directories and files. In this context, 
@@ -22,11 +23,11 @@ case "$letter" in
      ;;
    C)
      echo "The \"cat\" command looks into the content of files. In this context, this will allow you to interact 
-     with objects, npcs, or get descriptions of some things."
+     with objects, npcs, or get descriptions of some things. An example would be: \"cat [NAME] [hit enter]\"." 
      ;;
    D) 
-     echo "The \"..\" command allows you to move up a parent directory. More simply put, it can help you to 
-     \"go back\" to a location you were in case you get lost."
+     echo "The \" .. \" command allows you to move up a parent directory. More simply put, it can help you to 
+     \"go back\" to a location you were if you get lost. Simply type the command and hit enter to go back."
      ;;
    E) 
      echo "The \"clear\" command is used to clear your screen and reduce visual clutter. It doesn't delete 
