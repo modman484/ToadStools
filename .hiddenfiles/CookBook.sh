@@ -17,9 +17,7 @@ case "$letter" in
      for when you want to move."
      ;;
    B)
-     echo "The \"ls\"command simply helps list currently available directories and files. In this context, 
-     it's a way to \"look around\" and see what kind of locations you can go to, npcs you can interact with, 
-     or even check out items!"
+     echo "The \"ls\"command simply helps list currently available directories and files, letting you \"look around\"."
      ;;
    C)
      echo "The \"cat\" command looks into the content of files. In this context, this will allow you to interact 
