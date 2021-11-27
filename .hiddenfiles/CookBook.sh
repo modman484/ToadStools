@@ -4,11 +4,12 @@
 echo "Hello Delivery Boy (or girl or someone in-between, we don't judge), here's the essentials!"
 echo "Just type in 'A' for using the 'cd' command,
 if(gawk ‘$1 ~ /a' ) 
-      or 'B' for using the 'ls' command, 
+      'B' for using the 'ls' command, 
       fi
-      or 'C' for using the 'cat' command,
-      or 'D' for using the '..' command."
-read -p "Enter A, B, C, or D (use capitals!): " letter
+      'C' for using the 'cat' command,
+      'D' for using the '..' command,
+      'E' for using the 'clear' command."
+read -p "Enter A, B, C, D, or E (use capitals!): " letter
 case "$letter" in
    A)
      echo "The cd command is short for \"change direcctory\". This allows you to move yourself between
@@ -27,7 +28,11 @@ case "$letter" in
      echo "The \"..\" command allows you to move up a parent directory. More simply put, it can help you to 
      \"go back\" to a location you were in case you get lost."
      ;;
-   [a-z] | [E-Z])
+   E) 
+     echo "The \"clear\" command is used to clear your screen and reduce visual clutter. It doesn't delete 
+     previous lines, so the game remembers what you did. Simply type in this command and hit enter. You can use
+     the up arrow key to scroll back up."
+   [a-z] | [F-Z])
      echo "Whoops, you need to enter one of the displayed, commands! Try again."
      ;;
 esac     
