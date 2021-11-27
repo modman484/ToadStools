@@ -1,0 +1,23 @@
+#!/bin/bash
+echo "oh well hello there."
+echo "i see that you have some ToadStools there"
+echo "would you like trade some for a CookBook page"
+echo "or would you prefer to tell me a funny joke"
+echo "if you do ill let you go on to Benifactor"
+echo "be warned however, if the joke isnt funny I Will FireBall you"
+      cat <<EOF
+        Please Select:
+        1. trade 100 ToadStools
+        2. tell the frog a joke
+        3. leave him
+EOF
+read -p "Enter selection [0-3] > " selection
+case $selection in
+  1) ToadStools=gawk /home/nfarmer9662/toadstoles/ToadStools/.hiddenfiles
+  if($ToadStools < 100)
+  then
+  echo "sorry bud you dont seem to have enogh come back when you do"
+  fi
+  break
+  ;;
+  esac
