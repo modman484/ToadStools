@@ -14,8 +14,7 @@ break
 echo $readme
        ;;
         2) cd .Room #trying to cd into the starting directory but it fails 
-art=$(</.hiddenfile/room art)
+art=$(</.hiddenfiles/roomart)
 echo $art
-
 ;;
        esac
