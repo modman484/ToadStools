@@ -35,7 +35,7 @@ case "$letter" in
      the up arrow key to scroll back up."
    F)
      echo "The '.' command is used to run scripts, but in this context, it'll help you talk to people! Simply type in 
-     \". [NPC NAME] [hit enter]\" to talk to them!
+     \". [NPC NAME] [hit enter]\" to talk to them!"
    [a-z] | [G-Z])
      echo "Whoops, you need to enter one of the displayed, commands! Try again."
      ;;
