@@ -9,8 +9,9 @@ if(gawk ‘$1 ~ /a' )
       fi
       'C' for using the 'cat' command,
       'D' for using the '..' command,
-      'E' for using the 'clear' command."
-read -p "Enter A, B, C, D, or E (use capitals!): " letter
+      'E' for using the 'clear' command,
+      'F' for using the '.' command."
+read -p "Enter one of the options (use capitals): " letter
 case "$letter" in
    A)
      echo "The cd command is short for \"change directory\". This allows you to move yourself between
@@ -32,7 +33,10 @@ case "$letter" in
      echo "The \"clear\" command is used to clear your screen and reduce visual clutter. It doesn't delete 
      previous lines, so the game remembers what you did. Simply type in this command and hit enter. You can use
      the up arrow key to scroll back up."
-   [a-z] | [F-Z])
+   F)
+     echo "The '.' command is used to run scripts, but in this context, it'll help you talk to people! Simply type in 
+     \". [NPC NAME] [hit enter]\" to talk to them!
+   [a-z] | [G-Z])
      echo "Whoops, you need to enter one of the displayed, commands! Try again."
      ;;
 esac     
