@@ -12,8 +12,8 @@ break
         1) readme=$(<readme.txt)
 echo $readme
        ;;
-        2) mv /home/nfarmer9662/ToadStools/.hiddenfiles/Room /home/nfarmer9662/toadstoles/ToadStools 
-        cd /home/nfarmer9662/ToadStools/Room
+        2) mv /home/nfarmer9662/ToadStools/.hiddenfiles/.Room /home/nfarmer9662/ToadStools 
+        cd /home/nfarmer9662/ToadStools/.Room
  #trying to cd into the starting directory but it fails 
 art=$(</home/nfarmer9662/toadstoles/ToadStools/.hiddenfiles/roomart)
 echo $art
