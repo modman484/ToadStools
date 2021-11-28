@@ -1,7 +1,7 @@
 #!/bin/bash
 art=$(</../../ToadStools/.hiddenfiles/bookart)
 echo "$art"
-echo "It's a wooden stand for a book, it's well-worn, but atop has an ornate book."
+
 echo "the first page says to do $cd on blue files to travel there"
 
 
@@ -18,3 +18,4 @@ echo "the first page says to do $cd on blue files to travel there"
 
 
 
+"It's a wooden stand for a book, it's well-worn, but atop has an ornate book."
