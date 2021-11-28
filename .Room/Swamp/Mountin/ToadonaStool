@@ -1,6 +1,4 @@
 #!/bin/bash
-HP=10
-gawk
       cat <<EOF
       echo "its a toad on a stool"
       echo "HP is $HP"
@@ -12,11 +10,6 @@ gawk
 EOF
 read -p "Enter selection [0-3] > " selection
 case $selection in
-  1) ToadStools=gawk /home/nfarmer9662/toadstoles/ToadStools/.hiddenfiles
-  if($ToadStools < 100)
-  then
-  echo "sorry bud you dont seem to have enogh come back when you do"
-  fi
-  break
+  1) 
   ;;
   esac
