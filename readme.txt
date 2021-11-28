@@ -1,4 +1,3 @@
-can you see this
 Welcome Player, to ToadStools! This is a linux-based game made by two students with beginner's experience.
 This is meant to be educational yet fun at the same time. 
 It'll be catered to people who are very new to linux or even have no familiarity whatsoever. 
