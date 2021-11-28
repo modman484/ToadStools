@@ -17,5 +17,7 @@ echo $readme
  #trying to cd into the starting directory but it fails 
 art=$(</../../ToadStools/.hiddenfiles/roomart)
 echo $art
+echo "you wake up in a room with a pice of paper and a book stand"
+echo "$cat a file to get a discription of it or look at your map"
 ;;
        esac
