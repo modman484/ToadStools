@@ -21,7 +21,7 @@ case "$letter" in
      ;;
    C)
      echo "The \"cat\" command looks into the content of files. In this context, this will allow you to interact 
-     with objects, npcs, or get descriptions of some things. An example would be: \"cat [NAME] [hit enter]\"." 
+     with objects, but not people. An example would be: \"cat [NAME] [hit enter]\"." 
      ;;
    D) 
      echo "The \" .. \" command allows you to move up a parent directory. More simply put, it can help you to 
