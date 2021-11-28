@@ -1,3 +1,4 @@
+ #!/bin/bash
  cat <<EOF
         Please Select:
         1. readme
@@ -12,7 +13,11 @@ break
         1) readme=$(<readme.txt)
 echo $readme
        ;;
-        2) mv /../../ToadStools/.hiddenfiles/.Room /../../ToadStools 
+        2) 
+        PHP=100
+        TS=0
+        
+        mv /../../ToadStools/.hiddenfiles/.Room /../../ToadStools 
         cd /../../ToadStools/.Room
  #trying to cd into the starting directory but it fails 
 art=$(</../../ToadStools/.hiddenfiles/roomart)
