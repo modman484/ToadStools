@@ -1,8 +1,16 @@
 #!/bin/bash
+hp=100
+      if($PHP = 0)
+            then 
+      echo "YOU DIED"
+      sleep 100
+      sh . ../../ToadStools/startup.sh
+      fi
       cat <<EOF
       echo "its a toad on a stool"
       echo "HP is $HP"
-     
+      echo "your hp is $PHP
+
         Please Select:
         1. Attack
         2. tell the frog a joke
@@ -11,5 +19,6 @@ EOF
 read -p "Enter selection [0-3] > " selection
 case $selection in
   1) 
+  $PHP = $PHP - 100
   ;;
   esac
