@@ -27,7 +27,7 @@ case "$letter" in
      ;;
    D) 
      echo "The \" .. \" command allows you to move up a parent directory. More simply put, it can help you to 
-     \"go back\" to a location you were if you get lost. Simply type the command and hit enter to go back."
+     \"go back\" to a location you were if you get lost. Simply type \"cd ..\" to go back."
      ;;
    E) 
      echo "The \"clear\" command is used to clear your screen and reduce visual clutter. It doesn't delete 
