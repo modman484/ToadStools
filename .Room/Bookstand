@@ -1,5 +1,5 @@
 #!/bin/bash
-art=$(</home/nfarmer9662/toadstoles/ToadStools/.hiddenfiles/bookart)
+art=$(</../../ToadStools/.hiddenfiles/bookart)
 echo "$art"
 echo "It's a wooden stand for a book, it's well-worn, but atop has an ornate book."
 
