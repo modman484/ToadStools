@@ -1,7 +1,8 @@
 #!/bin/bash
 # give options for the user to choose a simple command they will need
 # give an option to use the grep command?
-echo "Hello Delivery Boy (or girl or someone in-between, we don't judge), here's the essentials!"
+echo "There's a page that sticks out, it's signed by your mentor!"
+echo "Hello my delivery boy (or girl or in between, I don't know, I'm old), here are the essentials!"
 echo "Just type in 'A' for using the 'cd' command,
 if(gawk ‘$1 ~ /a' ) 
       'B' for using the 'ls' command, 
