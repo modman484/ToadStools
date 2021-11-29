@@ -1,15 +1,6 @@
 #!/bin/bash
-echo "ah i see you have my cook book"
+echo "Ah, I see you have my cook book!"
+echo "My apologies, I should introduce myself; my name is Benedict F. Acter. Professional wizard and cook."
+echo "Since you've gone through all of this effort to get here, how about I cook the two of us a hearty meal?"
 
-
-
-
-
-
-
-
-
-
-
-
-is this the benifactor?
+# is this the benifactor?
