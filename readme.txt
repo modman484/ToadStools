@@ -8,3 +8,5 @@ Luckily, you've been provided some means of accessing linux commands to make the
 
 And another thing, make sure that whenever you type in a file/directory (in this context, the names of anything really), 
 be sure to type it is as ". [FILENAME]". A period, then a space, then the actual name. 
+
+Made by Nicholas Farmer and 
