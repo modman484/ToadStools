@@ -18,6 +18,7 @@ echo $readme
         export TS=0
         export c1=0
         export c2=0
+        export jk=0
         cd ~/ToadStools/.Room
  #trying to cd into the starting directory but it fails 
 art=$(</~/ToadStools/.hiddenfiles/roomart)
