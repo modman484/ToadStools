@@ -19,6 +19,7 @@ echo $readme
         export c1=0
         export c2=0
         export jk=0
+        mv ~/ToadStools/.Room/Swamp/Hut ~/ToadStools/.hiddenfiles 
         cd ~/ToadStools/.Room
  #trying to cd into the starting directory but it fails 
 art=$(<~/ToadStools/.hiddenfiles/roomart)
