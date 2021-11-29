@@ -13,8 +13,8 @@ echo "Be warned however, if the joke isnt funny I will use a fireball on you"
 EOF
 read -p "Enter selection [0-3] > " selection
 case $selection in
-  1) ToadStools=gawk /home/nfarmer9662/toadstoles/ToadStools/.hiddenfiles
-  if($ToadStools < 100)
+  1)
+  if($TS < 100)
   then
   echo "sorry bud you dont seem to have enogh come back when you do"
   else
@@ -23,7 +23,7 @@ case $selection in
   break
   ;;
   2)
-  mv ../../ToadStools/.hiddenfiles/Hut ../../ToadStools/.Room/Swamp
+  mv ~/ToadStools/.hiddenfiles/Hut ../../ToadStools/.Room/Swamp
   echo "ha Ha HA"
   sleep 100
   echo "HAHAHAHAHAHAHAHAHAHAHAHAAHHAHAHAHAHAHAHAHAHAHAHAHAAHHAHAHAHAHAHAHAHAHAHAHAHAAHHAHAHAHAHAHAHAHAHAHAHAHAAHHAHAHAHAHAHAHAHAHAHAHAHAAHHAHAHAHAHAHAHAHAHAHAHAHAAHHAHAHAHAHAHAHAHAHAHAHAHAAHHAHAHAHAHAHAHAHAHAHAHAHAAHHAHAHAHAHAHAHAHAHAHAHAHAAHHAHAHAHAHAHAHAHAHAHAHAHAAHHAHAHAHAHAHAHAHAHAHAHAHAAHHAHAHAHAHAHAHAHAHAHAHAHAAH"
