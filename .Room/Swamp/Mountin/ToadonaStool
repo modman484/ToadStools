@@ -28,11 +28,14 @@ then
  TS=100
 fi
   ;;
-  2)
+ 2)
   echo "you can do \$echo \$PHP to check you health and \$echo \$TS to check how many toad stools you have"
   ;;
-3)
-break
+ 3)
+  break
+  ;;
+ 4)
+  echo "Sorry Player, this is not a proper option!"
 ;;
 
   esac
