@@ -33,7 +33,7 @@ case $selection in
   echo "you may enter"
   else
   echo "You died"
-  sh . ~/ToadStools/startup.sh
+  . ~/ToadStools/startup.sh
   fi
   ;;
   3)
