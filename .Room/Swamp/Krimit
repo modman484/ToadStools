@@ -39,6 +39,9 @@ case $selection in
   3)
   break
   ;;
+  *)
+  echo "Sorry player, this isn't a proper option!"
+  ;;
   esac
 
 
