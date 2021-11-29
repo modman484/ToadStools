@@ -21,7 +21,7 @@ echo $readme
         export jk=0
         cd ~/ToadStools/.Room
  #trying to cd into the starting directory but it fails 
-art=$(</~/ToadStools/.hiddenfiles/roomart)
+art=$(<~/ToadStools/.hiddenfiles/roomart)
 echo $art
 echo "you wake up in a room with a pice of paper and a book stand"
 echo "\$ls can be used to look around"
