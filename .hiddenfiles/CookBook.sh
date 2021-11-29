@@ -4,7 +4,6 @@
 echo "There's a page that sticks out, it's signed by your mentor!"
 echo "Hello my delivery boy (or girl or in between, I don't know, I'm old), here are the essentials!"
 echo "Just type in 'A' for using the 'cd' command,
-if(gawk ‘$1 ~ /a' ) 
       'B' for using the 'ls' command, 
       fi
       'C' for using the 'cat' command,
@@ -40,6 +39,31 @@ case "$letter" in
      echo "Whoops, you need to enter one of the displayed, commands! Try again."
      ;;
 esac     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
