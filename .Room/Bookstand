@@ -2,7 +2,37 @@
 art=$(</../../ToadStools/.hiddenfiles/bookart)
 echo "$art"
 
-echo "the first page says to do $cd on blue files to travel there"
+echo "The first page says to use $cd on blue files to travel to those locations."
+echo "Example: \"cd Lake\"." 
+echo " \*Disclaimer, not an actual teleportation spell, that'd ruin the travel mule industry"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
