@@ -1,15 +1,11 @@
-#!/bin/bash
-hp=100
-      if($PHP = 0)
-            then 
-      echo "YOU DIED"
-      sleep 100
-      sh . ../../ToadStools/startup.sh
-      fi
+hp=123
+Damage=20
+FDamage=25
+o=0
       cat <<EOF
       echo "its a toad on a stool"
       echo "HP is $HP"
-      echo "your hp is $PHP
+      echo "your hp is $PHP"
 
         Please Select:
         1. Attack
@@ -18,10 +14,26 @@ hp=100
 EOF
 read -p "Enter selection [0-3] > " selection
 case $selection in
-  1) 
-  $PHP = $PHP - 100
+  1)
+ PHP=($[PHP-Damage])
+      if($PHP -eq $o)
+            then
+      echo "YOU DIED"
+      sleep
+      sh . ../../ToadStools/startup.sh
+      fi
+          HP=($[HP-FDamage])
+if($HP -eq $0)
+then
+ TS=100
+fi
   ;;
   2)
   echo "you can do \$echo \$PHP to check you health and \$echo \$TS to check how many toad stools you have"
   ;;
+3)
+break
+;;
+
   esac
+
