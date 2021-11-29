@@ -14,10 +14,9 @@ break
 echo $readme
        ;;
         2) 
-        PHP=100
-        TS=0
-        
-        mv /../../ToadStools/.hiddenfiles/.Room /../../ToadStools 
+        export PHP=100
+        export TS=0
+       
         cd /../../ToadStools/.Room
  #trying to cd into the starting directory but it fails 
 art=$(</../../ToadStools/.hiddenfiles/roomart)
