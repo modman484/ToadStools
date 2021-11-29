@@ -19,7 +19,7 @@ EOF
 read -p "Enter selection [1-3] > " selection
 case $selection in
     1) 
-    echo "Maybe that haircut of yours. Haha, I'm kidding."
+    echo "Maybe that haircut of yours. Haha, I'm kidding the real anser is 42."
     jk=1
        ;;
     2) 
