@@ -1,7 +1,5 @@
-hp=123
-Damage=20
-FDamage=25
-o=0
+PHP=$(<~/ToadStools/.Vars/Health)
+HP=100
       cat <<EOF
       echo "its a toad on a stool"
       echo "HP is $HP"
@@ -15,17 +13,18 @@ EOF
 read -p "Enter selection [1-3] > " selection
 case $selection in
   1)
- PHP=($[PHP-Damage])
-      if($PHP -eq $o)
+$PHP  = ($PHP - 20)
+echo $PHP > ~/ToadStools/.Vars/Health
+      if($PHP -eq 0)
             then
       echo "YOU DIED"
       sleep
       sh . ../../ToadStools/startup.sh
       fi
           HP=($[HP-FDamage])
-if($HP -eq $0)
+if($HP -eq 0)
 then
- TS=100
+ echo 100 >> ~/ToadStools/.Vars/TS
 fi
   ;;
  2)
