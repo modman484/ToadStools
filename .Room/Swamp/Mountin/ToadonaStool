@@ -1,3 +1,8 @@
+#!/bin/bash
+hp=123
+Damage=20
+FDamage=25
+o=0
 PHP=$(<~/ToadStools/.Vars/Health)
 HP=100
       cat <<EOF
@@ -13,15 +18,16 @@ EOF
 read -p "Enter selection [1-3] > " selection
 case $selection in
   1)
-$PHP  = ($PHP - 20)
-echo $PHP > ~/ToadStools/.Vars/Health
+ echo ($[PHP-Damage]) > ~/ToadStools/.Vars/Health
+ HP=($[HP-FDamage])
+ PHP=$(<~/ToadStools/.Vars/Health)
+ 
       if($PHP -eq 0)
             then
       echo "YOU DIED"
       sleep
-      sh . ../../ToadStools/startup.sh
+      sh . ~/ToadStools/startup.sh
       fi
-          HP=($[HP-FDamage])
 if($HP -eq 0)
 then
  echo 100 >> ~/ToadStools/.Vars/TS
@@ -36,6 +42,7 @@ fi
  *)
   echo "Sorry Player, this is not a proper option!"
 ;;
-
   esac
+
+
 
