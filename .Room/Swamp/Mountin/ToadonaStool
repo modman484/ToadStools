@@ -4,7 +4,7 @@ Damage=20
 FDamage=25
 o=0
 PHP=$(<~/ToadStools/.Vars/Health)
-HP=100
+export HP=100
       cat <<EOF
       echo "its a toad on a stool"
       echo "HP is $HP"
