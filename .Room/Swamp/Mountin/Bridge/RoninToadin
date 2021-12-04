@@ -2,6 +2,11 @@
 
 echo "Before you stands a toad... ronin. With a straw hat lowered and a sword at his hip, he blocks your path"
 echo "RoninToadin: Oho, a traveller? May I ask as to what you're doing here, it's quite cold and dangerous."
-echo " \n "
+echo #blank line
 
-echo "1] 
+echo "1) \"I'm delivering something for someone.\"  
+2) \"What's a toad doing up on a mountain bridge?\" "
+
+read -p "Choose an answer: " input1
+case $input1 in
+  1) echo "RoninToadin: Hmm, I see. I'll give you advice if you can      
