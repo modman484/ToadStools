@@ -14,10 +14,11 @@ break
 echo $readme
        ;;
         2) 
-       echo 100 >> ~/ToadStools/.Vars/Health
-       echo 0 >> ~/ToadStools/.Vars/TS
-       echo 0 >> ~/ToadStools/.Vars/Var1
-       echo 0 >> ~/ToadStools/.Vars/Var2
+       echo 100 > ~/ToadStools/.Vars/Health
+       echo 0 > ~/ToadStools/.Vars/TS
+       echo 0 > ~/ToadStools/.Vars/Var1
+       echo 0 > ~/ToadStools/.Vars/Var2
+       echo 100 > ~/ToadStools/.Vars/EHP
         export PHP=100
         export TS=0
         export c1=0
