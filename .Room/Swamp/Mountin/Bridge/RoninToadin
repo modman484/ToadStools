@@ -16,6 +16,7 @@ read -p "$(echo -e "[1] I'm delivering something for someone. You know an old
 man around here, probably wants a cookbook?
 [2] What's a toad doing up on a mountain bridge?
 [3] > Leave the ronin toad
+[4] Wow cool sword
 :")" input
 case "$input" in
   1) echo -e "RoninToadin: Hmm, I see. I'll give you advice for your journey then."
@@ -25,10 +26,12 @@ case "$input" in
      ;; 
   2) echo "Why do you have such a mediocre haircut? I'm here to ensure people
   like you do not get lost."
-  ;;
+     ;;
   3) echo "Come back if you need something else."
      ((n=6))
      ;;
+  4) echo "I know right? Got it for like 20 bucks at a garage sale."
+     ;; 
   *) echo "That's not what I was expecting..."
      ;;
 esac
