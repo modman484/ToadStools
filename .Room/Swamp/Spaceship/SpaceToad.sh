@@ -27,6 +27,7 @@ case $selection in
        ;;
     3) 
     echo "Alright, later!"
+    exit 0;
        ;;
     *)
     echo "What? were you trying to tell me something?"
