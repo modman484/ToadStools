@@ -7,7 +7,7 @@ PHP=$(<~/ToadStools/.Vars/Health)
 EHP=$(<~/ToadStools/.Vars/EHP)
       cat <<EOF
       echo "its a toad on a stool"
-      echo "HP is $HP"
+      echo "HP is $EHP"
       echo "your hp is $PHP"
 
         Please Select:
@@ -18,16 +18,22 @@ EOF
 read -p "Enter selection [1-3] > " selection
 case $selection in
   1)
- echo ($[PHP-Damage]) > ~/ToadStools/.Vars/Health
- echo ($[EHP-FDamage]) > ~/ToadStools/.Vars/EHP
- 
-      if($PHP -eq 0)
+
+ PHP=($[PHP - Damage])
+ EHP=($[EHP - FDamage])
+echo $PHP > ~/ToadStools/.Vars/Health
+echo $EHP > ~/ToadStools/.Vars/EHP
+
+if [ $PHP -le 0 ]
             then
       echo "YOU DIED"
-      sleep
-      sh . ~/ToadStools/startup.sh
-      fi
-if($HP -eq 0)
+      sleep 10
+      . ~/ToadStools/startup.sh
+     else
+
+echo "you sevived"
+ fi
+if($EHP -le 0)
 then
  echo 100 >> ~/ToadStools/.Vars/TS
 fi
@@ -42,6 +48,7 @@ fi
   echo "Sorry Player, this is not a proper option!"
 ;;
   esac
+
 
 
 
