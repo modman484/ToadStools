@@ -23,7 +23,8 @@ case "$input" in
       If there's something that looks like it's too full of information, you can use
       a couple commands. Just type in "head [object]" or "tail [object]". It'll 
       narrow your view down to the top of bottom."
-  2) echo "Why do you have such a mediocre haircut? I'm here to ensure people
+      ;;
+  2) echo -e "RoninToadin: Why do you have such a mediocre haircut? I'm here to ensure people
   like you do not get lost."
      ;;
   3) echo "Come back if you need something else."
