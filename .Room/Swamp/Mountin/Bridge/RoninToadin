@@ -19,11 +19,10 @@ man around here, probably wants a cookbook?
 [4] Wow cool sword
 :")" input
 case "$input" in
-  1) echo -e "RoninToadin: Hmm, I see. I'll give you advice for your journey then."
-     echo -e "RoninToadin: Well if you're going to cross this bridge, I'll have 
-     you know that beyond is a very dense forest. Real easy to get lost there. 
-     But as long as you look for a red tree, you should be fine."
-     ;; 
+  1) echo -e "RoninToadin: Hmm, I see. I'll give you advice for your journey then. 
+      If there's something that looks like it's too full of information, you can use
+      a couple commands. Just type in "head [object]" or "tail [object]". It'll 
+      narrow your view down to the top of bottom."
   2) echo "Why do you have such a mediocre haircut? I'm here to ensure people
   like you do not get lost."
      ;;
