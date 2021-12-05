@@ -6,7 +6,7 @@ echo #blank line
 
 n=2
 while [ $n -le 5 ]; do
-if [ $n -le 5 ]; 
+if [ $n -eq 1 ]; 
 then
 echo -e "\nGot something else to say?"
 else 
