@@ -29,5 +29,7 @@ case "$input" in
   3) echo "Come back if you need something else."
      ((n=6))
      ;;
+  *) echo "That's not what I was expecting..."
+     ;;
 esac
 done
