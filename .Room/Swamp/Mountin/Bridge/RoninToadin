@@ -4,9 +4,17 @@ echo "Before you stands a toad... ronin. With a straw hat lowered and a sword at
 echo "RoninToadin: Oho, a traveller? May I ask as to what you're doing here, it's quite cold and dangerous."
 echo #blank line
 
-echo "1) \"I'm delivering something for someone.\"  
-2) \"What's a toad doing up on a mountain bridge?\" "
+echo "[1] \"I'm delivering something for someone.\"  
+[2] \"What's a toad doing up on a mountain bridge?\" "
 
 read -p "Choose an answer: " input1
 case $input1 in
-  1) echo "RoninToadin: Hmm, I see. I'll give you advice if you can      
+  1) echo "RoninToadin: Hmm, I see. I'll give you advice for your journey then."
+     echo "RoninToadin: Well if you're going to cross this bridge, I'll have 
+     you know that beyond is a very dense forest. Real easy to get lost there. 
+     But as long as you look for a red tree, you should be fine."
+     ;; 
+  2) echo "Why do you have such a mediocre haircut? I'm here to ensure people
+  like you won't get lost."
+  ;;
+esac
