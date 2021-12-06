@@ -14,21 +14,19 @@ EOF
 read -p "Enter selection [1-3] > " selection
 case $selection in
   1)
-  if($TS < 100)
-  then
+TS=$(<../../.Vars/TS)
+if[ $TS < 100 ]
   echo "sorry bud you dont seem to have enogh come back when you do"
   else
-  export TS=1
+echo "you can type file head to see the code"
   fi
-  break
   ;;
   2)
   echo "You died"
+#  . ~/ToadStools/startup.sh
   . ../../startup.sh
-  fi
   ;;
   3)
-  break
   ;;
   42)
   mv ../.hiddenfiles/Hut Swamp
@@ -41,7 +39,7 @@ case $selection in
   *)
   echo "Sorry player, this isn't a proper option!"
   ;;
-  esac
+esac
 
 
 
