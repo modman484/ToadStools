@@ -119,4 +119,4 @@ esac
 
 
 
-Whoops! You tried to use the \"cat\" command instead of the \". Cookbook\" command, try again!
+#Whoops! You tried to use the "cat" command instead of the ". Cookbook" command, try again!
