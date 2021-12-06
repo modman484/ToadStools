@@ -28,12 +28,35 @@ echo $readme
         cd /.Room
  #trying to cd into the starting directory but it fails 
 cat << ART
-
-
-
-
-
-
+                      /oo/.``---`     `:/:`                             
+                     .yo++osooooo---::sssss-`                           
+                    :+o++++o+yy+so+++++++so++/`                         
+                   :s+s++++++oo+++++++osyo++oso:                        
+                   `/yo+++++++++++oosoo+so+++++s-                       
+                     :/::::::///+++yo+++y+++++++y`                      
+                     ++oos/:::--::/s++oos+++++++oo..                    
+                     +++s+:::://::+oo+:/y+++++sooooo/                   
+                     -+/+/:::++ossosyso+ho++++++++++o                   
+                     `/:::///ooo++oyso+//soooooos++o-                   
+                       `o/+//:--:::so::--::++o:s+++.                    
+                       `+-/  `..o//y:-....`+ooo+:.                      
+                       /-:/     +-/o/     +s++o                         
+                       +-+`     +-oso::--.`.+/s-                        
+                      .oo+:--:///-sss:://+o+s-s`                        
+                      /-+so+//:s--hso/-:::/+/+/.                        
+                      +-+`   `-o-:o///::----:/-/                        
+                     .+-+      +-+-o+o.`     +-+                        
+                     /:/:      +-o oso++//:--o-+                        
+                     oo//:-.--//-o/o+o--:///+y-/.                       
+                    .+:s+++//+y--s/o++:   `.-//-/                       
+                    +-:/-..`.:o-:+-/+++::::::/+/+                       
+                    o-+       +-+/::++o----..`+-o                       
+                   ./-/      -/-+`` o/s       /-+.                      
+                   /-:-      /--+   .--       ./:/                      
+                   o-+`      +:-/              o-+                      
+                   ///      `+/+-              ::-                      
+                            -//o`                                       
+                            .://           
 ART
 echo "you wake up in a room with a pice of paper and a book stand"
 echo "\$ls can be used to look around"
