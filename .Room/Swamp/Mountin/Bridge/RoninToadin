@@ -22,7 +22,8 @@ case "$input" in
   1) echo -e "RoninToadin: Hmm, I see. I'll give you advice for your journey then. 
       If there's something that looks like it's too full of information, you can use
       a couple commands. Just type in "head [object]" or "tail [object]". It'll 
-      narrow your view down to the top of bottom."
+      narrow your view down to the top of bottom. Try using it on my shopping list."
+      touch roninShoppingList
       ;;
   2) echo -e "RoninToadin: Why do you have such a mediocre haircut? I'm here to ensure people
   like you do not get lost."
