@@ -27,12 +27,12 @@ case "$input" in
   2) echo -e "RoninToadin: Why do you have such a mediocre haircut? I'm here to ensure people
   like you do not get lost."
      ;;
-  3) echo "Come back if you need something else."
+  3) echo "RoninToadin: Come back if you need something else."
      ((n=6))
      ;;
-  4) echo "I know right? Got it for like 20 bucks at a garage sale."
+  4) echo "RoninToadin: I know right? Got it for like 20 bucks at a garage sale."
      ;; 
-  *) echo "That's not what I was expecting..."
+  *) echo "RoninRoadin: That's not what I was expecting..."
      ;;
 esac
 done
