@@ -14,20 +14,20 @@ break
 echo $readme
        ;;
         2) 
-       echo 100 > ~/ToadStools/.Vars/Health
-       echo 0 > ~/ToadStools/.Vars/TS
-       echo 0 > ~/ToadStools/.Vars/Var1
-       echo 0 > ~/ToadStools/.Vars/Var2
-       echo 100 > ~/ToadStools/.Vars/EHP
+       echo 100 > /.Vars/Health
+       echo 0 > /.Vars/TS
+       echo 0 > /.Vars/Var1
+       echo 0 > /.Vars/Var2
+       echo 100 > /.Vars/EHP
         export PHP=100
         export TS=0
         export c1=0
         export c2=0
         export jk=0
-        mv ~/ToadStools/.Room/Swamp/Hut ~/ToadStools/.hiddenfiles 
-        cd ~/ToadStools/.Room
+        mv /.Room/Swamp/Hut /.hiddenfiles 
+        cd /.Room
  #trying to cd into the starting directory but it fails 
-art=$(<~/ToadStools/.hiddenfiles/roomart)
+art=$(</.hiddenfiles/roomart)
 echo $art
 echo "you wake up in a room with a pice of paper and a book stand"
 echo "\$ls can be used to look around"
