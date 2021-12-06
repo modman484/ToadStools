@@ -27,8 +27,14 @@ echo $readme
         mv /.Room/Swamp/Hut /.hiddenfiles 
         cd /.Room
  #trying to cd into the starting directory but it fails 
-art=$(</.hiddenfiles/roomart)
-echo $art
+cat << ART
+
+
+
+
+
+
+ART
 echo "you wake up in a room with a pice of paper and a book stand"
 echo "\$ls can be used to look around"
 ;;
