@@ -3,8 +3,8 @@ hp=123
 Damage=20
 FDamage=25
 o=0
-PHP=$(<~/ToadStools/.Vars/Health)
-EHP=$(<~/ToadStools/.Vars/EHP)
+PHP=$(<../../../.Vars/Health)
+EHP=$(<../../../.Vars/EHP)
       cat <<EOF
       echo "its a toad on a stool"
       echo "HP is $EHP"
@@ -21,21 +21,21 @@ case $selection in
 
  PHP=($[PHP - Damage])
  EHP=($[EHP - FDamage])
-echo $PHP > ~/ToadStools/.Vars/Health
-echo $EHP > ~/ToadStools/.Vars/EHP
+echo $PHP > ../../../.Vars/Health
+echo $EHP > ../../../.Vars/EHP
 
 if [ $PHP -le 0 ]
             then
       echo "YOU DIED"
       sleep 10
-      . ~/ToadStools/startup.sh
+      . ../../../startup.sh
      else
 
 echo "you sevived"
  fi
 if($EHP -le 0)
 then
- echo 100 >> ~/ToadStools/.Vars/TS
+ echo 100 >> ../../../.Vars/TS
 fi
   ;;
  2)
