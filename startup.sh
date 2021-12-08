@@ -1,6 +1,6 @@
  #!/bin/bash
 # cat uses input of a here document
-
+cd ../../../
 
       cat <<EOF
         Please Select:
@@ -21,7 +21,7 @@ echo $readme
         PHP=100
         TS=0
 
-       echo 100 > .Vars/Health
+       echo "100" > .Vars/Health
        echo 0 > .Vars/TS
        echo 0 > .Vars/Var1
        echo 0 > .Vars/Var2
