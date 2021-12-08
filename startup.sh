@@ -35,18 +35,18 @@ echo $readme
         cd .Room
  #trying to cd into the starting directory but it fails
 cat <<ART
-                     " /oo/.``---`     `:/:`
-                     .yo++osooooo---::sssss-`
-                    :+o++++o+yy+so+++++++so++/`
+                     " /oo/.``---`     `:/:
+                     .yo++osooooo---::sssss-
+                    :+o++++o+yy+so+++++++so++/
                    :s+s++++++oo+++++++osyo++oso:
-                   `/yo+++++++++++oosoo+so+++++s-
-                     :/::::::///+++yo+++y+++++++y`
+                   /yo+++++++++++oosoo+so+++++s-
+                     :/::::::///+++yo+++y+++++++y
                      ++oos/:::--::/s++oos+++++++oo..
                      +++s+:::://::+oo+:/y+++++sooooo/
                      -+/+/:::++ossosyso+ho++++++++++o
-                     `/:::///ooo++oyso+//soooooos++o-
-                       `o/+//:--:::so::--::++o:s+++.
-                       `+-/  `..o//y:-....`+ooo+:.
+                     /:::///ooo++oyso+//soooooos++o-
+                       o/+//:--:::so::--::++o:s+++.
+                       +-/  `..o//y:-....`+ooo+:.
                        /-:/     +-/o/     +s++o
                        +-+`     +-oso::--.`.+/s-
                       .oo+:--:///-sss:://+o+s-s`
